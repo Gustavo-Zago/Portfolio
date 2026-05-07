@@ -35,7 +35,7 @@ main>p {
   cursor: pointer;
   z-index: 1;
 }
-/* Fundo preto vindo da esquerda */
+
 .titulo::before {
   content: '';
   position: absolute;
@@ -48,7 +48,7 @@ main>p {
   transition: width 0.4s ease;
 }
 
-/* Hover: fundo expande e texto fica branco */
+
 .titulo.visivel::before {
   width: 100%;
 }
@@ -70,7 +70,7 @@ main>p {
   transition: all 0.6s ease;
 }
 
-/* Quando visível na tela */
+
 .frase.visivel {
   background-color: rgba(0, 0, 0, 0.05); 
   backdrop-filter: blur(4px);
@@ -79,7 +79,7 @@ main>p {
   transform: scale(1);
 }
 
-/* Efeito hover: aumenta o painel e escurece levemente */
+
 .frase.visivel:hover {
   transform: scale(1.05);
   background-color: rgba(0, 0, 0, 0.15);
@@ -118,4 +118,19 @@ main>p {
 .skills-icons i:hover {
   transform: scale(1.2);
   color: #007bff;
+}
+.img-destaque {
+  width: 70%;
+  max-width: 400px; 
+  height: auto;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+
+@media (max-width: 768px) {
+  .img-destaque {
+    width: 90%; 
+    margin-bottom: 2rem; 
+  }
 }
