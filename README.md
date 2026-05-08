@@ -2,7 +2,8 @@
 
 Bem-vindo ao repositório do meu portfólio! Este projeto foi desenvolvido para centralizar meus principais projetos, habilidades e experiências na jornada como desenvolvedor.
 
-🔗 **Confira o site online:** [portfoliozago-gamma-snowy.vercel.app](https://portfoliozago-gamma-snowy.vercel.app/)
+🔗 **Confira o site online:** [Github.io](https://gustavo-zago.github.io/Portfolio/)
+🔗 **Confira o site online:** [vercel.app](https://portfoliozago-gamma-snowy.vercel.app/)
 
 ---
 
