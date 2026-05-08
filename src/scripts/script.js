@@ -2,7 +2,7 @@
 const arrayText = [
     'Olá, Seja Bem-Vindo',
     'Este é o Meu Portfólio',
-    'Sou Full-Stack Developer',
+    'Sou Back-End Developer',
 ];
 
 const writeSpeed = 50;
